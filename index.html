@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakukone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header"><h1>Pokémon Finder</h1></header>
+
+<div class="mainbox">
+
+    <div class="searchbox">
+        <input id="searchtext" class="searchtext" type="text" placeholder="let the search begin">
+        <button id="search" class="search" onclick="getdata()">Search</button>
+    </div>
+
+    <p id="error"></p>
+
+    <div class="content">
+        
+        <div class="images">
+        <img src="" alt="pokemon sprite" id="img">
+        <img src="" alt="kuva" id="img2">
+        </div>
+
+        <p class="type"></p>
+        <p class="weight"></p>
+        <p class="ability"></p>
+    </div>
+
+</div>
+    
+<script src="main.js"></script>
+</body>
+</html>

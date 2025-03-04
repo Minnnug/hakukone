@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(175, 175, 223);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    text-align: center;
+    background: url(pikachu.png);
+    background-repeat: no-repeat;
+    background-size: 150px 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-shadow: 4px 2px black;
+    color: rgb(223, 226, 7);
+}
+
+.mainbox {
+    background: linear-gradient(120deg, rgb(243, 243, 104), rgb(77, 77, 228));
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border: 2px solid rgb(243, 221, 24);
+    border-radius: 20px;
+}
+
+.searchbox {
+    padding-top: 20px;
+}
+
+.searchtext {
+    margin-right: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.search {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.content {
+    height: 200px;
+    margin: 20px 20px;
+}
+
+#img {
+    display: none;
+    width: 30%;
+    margin-left: 0%;
+}
+
+#img2 {
+    display: none;
+    width: 30%;
+} 
+
+.images {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
