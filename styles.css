@@ -2,6 +2,7 @@ body {
     background-color: rgb(175, 175, 223);
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
@@ -34,14 +35,20 @@ h1 {
 .searchtext {
     margin-right: 30px;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(243, 221, 24);
     border-radius: 5px;
+    background-color: rgb(175, 175, 223);
 }
 
 .search {
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid rgb(243, 221, 24);
     border-radius: 5px;
+    background-color: rgb(175, 175, 223);
+}
+
+.search:hover {
+    cursor: pointer;
 }
 
 .content {
@@ -49,19 +56,19 @@ h1 {
     margin: 20px 20px;
 }
 
-#img {
-    display: none;
-    width: 30%;
-    margin-left: 0%;
-}
-
-#img2 {
-    display: none;
-    width: 30%;
-} 
-
 .images {
     display: flex;
-    align-items: center;
-    margin-left: 15%;
+    justify-content: center; 
+}
+
+.type, .weight, .ability {
+    font-size: large;
+}
+
+@media only screen and (min-width: 800px) {
+    .mainbox, .header {
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+    }
 }
