@@ -34,6 +34,7 @@ async function getdata() {
         document.querySelector(".type").innerHTML = "Pokemon type:" + " " + data.types [0].type.name;
         document.querySelector(".weight").innerHTML = "Pokemon weight:" + " " + data.weight;
         document.querySelector(".ability").innerHTML = "Main ability:" + " " + data.abilities [0].ability.name;
+        document.querySelector(".ID").innerHTML = "Pokemon Id:" + " " + data.id;
         
         
 // loggaa datan, voi poistaa jos ei tarvitse nähdä tulevaa dataa
